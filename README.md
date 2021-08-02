@@ -53,7 +53,7 @@
 
 
 ### Detection Results :
-![image](https://user-images.githubusercontent.com/69844239/127860197-ba1a5eb8-9746-46c7-9de8-edccd10ce881.png)
+![detection results](https://user-images.githubusercontent.com/69844239/127863218-a5eb5ea6-d60b-43b6-ad2e-03152aab411c.jpg)
 
 
 
