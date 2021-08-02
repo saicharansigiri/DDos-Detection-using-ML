@@ -1,4 +1,9 @@
 # DDos-Detection-using-ML
+* Denial of service (DOS) attacks are a serious threat to network security. These attacks are often sourced from virtual machines in the cloud, rather than from the attacker’s own machine, to achieve anonymity and higher network bandwidth.
+* Past research focused on analyzing traffic on the destination (victim’s) side with predefined thresholds. These approaches have significant disadvantages.
+* They are only passive defenses after the attack, they cannot use the outbound statistical features of attacks, and it is hard to trace back to the attacker with these approaches.
+* There are many different DDos detection Techniques,But they are Not effective to mitigate these attacks.
+  So, In this Project we Implemented the 8 different types of  ML(Machine Learning Techniques) to detect DDos attacks From Source Side in Cloud Infrastructure. 
 
 * DDos detection using ML Techniques we have Trained our models using NSDL -Dataset & implemented 8 differenet ML Models To Detect DDos.
 * We split our gathered data into training samples and testing samples.
@@ -9,18 +14,16 @@
    - SVM (with linear, RBF(Radial Basis Function) and polynomial kernels),Decision Tree,
    - Naive Bayes and Random Forest algorithms.
    - We also tested unsupervised learning algorithm i.e k-means.
+### Flow Chart :
+![image](https://user-images.githubusercontent.com/69844239/127862059-404a8c1e-65fd-42f6-a1b8-a31d9fd4b665.png)
 
-
- 
-
-
-### DDOS Report by imperva:- 
+### DDOS Report by imperva : 
 ![image](https://user-images.githubusercontent.com/69844239/127859906-4638bbf5-dd5a-4521-a0f0-e2ab06f30478.png)
-### Most Common Types of DDosAttacks:- 
+### Most Common Types of DDosAttacks : 
 ![image](https://user-images.githubusercontent.com/69844239/127860077-fc633342-8ddf-44ad-86d7-4bb1f7cd12db.png)
-### Proposed Model:- 
+### Proposed Model : 
 ![image](https://user-images.githubusercontent.com/69844239/127859722-42963e97-145c-42ac-9647-c471b7c7025f.png)
-### **Implementation And Evaluation**:-
+### **Implementation And Evaluation** :
 * **Accuracy** : Accuracy is the fraction of correctly classified samples. This is the most commonly used metric to evaluate a model. The higher this value is, indicates the model is better.
                                     
                                     Accuracy = (TP+TN)/(TP+TN+FP+FN) 
@@ -38,11 +41,19 @@
 * **F1 Score** : F1 score, also known as balanced F-score or F-measure, is the harmonic average of recall and precision, considering they have equal weight. This is a good metric when recall and precision cause conflict and hard to decide which one is better.
 
                 F1 score = 2*recall*precision / (recall + precision)
+* **Confusion Matrix** : Nearly all the classification metrics are based on the confusion matrix, also known as the error matrix. It is a table that compares the predicted values and actual values (standard values), it reflects the performance of an algorithm. Figure 2 is the format of a confusion matrix. Columns are the predicted values counts and rows are the actual values counts
+                        
+ ![image](https://user-images.githubusercontent.com/69844239/127862308-636eabe8-5a0f-4509-985f-7c3216e968ab.png)
+
+
+
+ 
     
 
 
 
-### Detection Results:-![image](https://user-images.githubusercontent.com/69844239/127860197-ba1a5eb8-9746-46c7-9de8-edccd10ce881.png)
+### Detection Results :
+![image](https://user-images.githubusercontent.com/69844239/127860197-ba1a5eb8-9746-46c7-9de8-edccd10ce881.png)
 
 
 
