@@ -22,7 +22,7 @@
 ### Most Common Types of DDosAttacks : 
 ![image](https://user-images.githubusercontent.com/69844239/127860077-fc633342-8ddf-44ad-86d7-4bb1f7cd12db.png)
 ### Proposed Model : 
-![image](https://user-images.githubusercontent.com/69844239/127859722-42963e97-145c-42ac-9647-c471b7c7025f.png)
+![model](https://user-images.githubusercontent.com/69844239/127863514-797e5442-91a5-4797-bd46-287f79eb3858.jpg)
 ### **Implementation And Evaluation** :
 * **Accuracy** : Accuracy is the fraction of correctly classified samples. This is the most commonly used metric to evaluate a model. The higher this value is, indicates the model is better.
                                     
